@@ -22,9 +22,16 @@ class ViewController: UIViewController {
 
         for item in items {
             if item.hasPrefix("nssl") {
+                
                 // this is a picture to load!
+                pictures.append(item)
+                
+                
+                
             }
         }
+        // cek print picture
+        print(pictures)
     }
 
 
