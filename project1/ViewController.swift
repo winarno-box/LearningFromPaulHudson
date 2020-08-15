@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UITableViewController {
 
     //varible untuk menyimpan gambar dari item
     var pictures = [String]()
@@ -30,10 +30,30 @@ class ViewController: UIViewController {
                 
             }
         }
+        
         // cek print picture
         print(pictures)
     }
-
+    
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    {
+        // return picture count to the row
+        return pictures.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        // define cell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Picture", for: indexPath)
+        
+        // set picture name to label of cell
+        cell.textLabel?.text = pictures[indexPath.row]
+        
+        // return cell
+        return cell
+    }
+    
 
 }
 
