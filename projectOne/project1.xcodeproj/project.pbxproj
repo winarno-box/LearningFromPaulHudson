@@ -13,16 +13,16 @@
 		B7404DB724E7B162006A9D2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7404DB524E7B162006A9D2F /* Main.storyboard */; };
 		B7404DB924E7B164006A9D2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7404DB824E7B164006A9D2F /* Assets.xcassets */; };
 		B7404DBC24E7B164006A9D2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7404DBA24E7B164006A9D2F /* LaunchScreen.storyboard */; };
-		B7BF00B624E7C2C200CCCCD0 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00AC24E7C2C200CCCCD0 /* nssl0049.jpg */; };
-		B7BF00B724E7C2C200CCCCD0 /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00AD24E7C2C200CCCCD0 /* nssl0046.jpg */; };
-		B7BF00B824E7C2C200CCCCD0 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00AE24E7C2C200CCCCD0 /* nssl0091.jpg */; };
-		B7BF00B924E7C2C200CCCCD0 /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00AF24E7C2C200CCCCD0 /* nssl0045.jpg */; };
-		B7BF00BA24E7C2C200CCCCD0 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B024E7C2C200CCCCD0 /* nssl0051.jpg */; };
-		B7BF00BB24E7C2C200CCCCD0 /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B124E7C2C200CCCCD0 /* nssl0041.jpg */; };
-		B7BF00BC24E7C2C200CCCCD0 /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B224E7C2C200CCCCD0 /* nssl0042.jpg */; };
-		B7BF00BD24E7C2C200CCCCD0 /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B324E7C2C200CCCCD0 /* nssl0043.jpg */; };
-		B7BF00BE24E7C2C200CCCCD0 /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B424E7C2C200CCCCD0 /* nssl0033.jpg */; };
-		B7BF00BF24E7C2C200CCCCD0 /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B7BF00B524E7C2C200CCCCD0 /* nssl0034.jpg */; };
+		B75B370A24E93EE200B7473A /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370024E93EE200B7473A /* nssl0049.jpg */; };
+		B75B370B24E93EE200B7473A /* nssl0046.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370124E93EE200B7473A /* nssl0046.jpg */; };
+		B75B370C24E93EE200B7473A /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370224E93EE200B7473A /* nssl0091.jpg */; };
+		B75B370D24E93EE200B7473A /* nssl0045.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370324E93EE200B7473A /* nssl0045.jpg */; };
+		B75B370E24E93EE200B7473A /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370424E93EE200B7473A /* nssl0051.jpg */; };
+		B75B370F24E93EE200B7473A /* nssl0041.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370524E93EE200B7473A /* nssl0041.jpg */; };
+		B75B371024E93EE200B7473A /* nssl0042.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370624E93EE200B7473A /* nssl0042.jpg */; };
+		B75B371124E93EE200B7473A /* nssl0043.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370724E93EE200B7473A /* nssl0043.jpg */; };
+		B75B371224E93EE200B7473A /* nssl0033.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370824E93EE200B7473A /* nssl0033.jpg */; };
+		B75B371324E93EE200B7473A /* nssl0034.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B75B370924E93EE200B7473A /* nssl0034.jpg */; };
 		B7BF00C124E824AF00CCCCD0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF00C024E824AF00CCCCD0 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,16 +35,16 @@
 		B7404DB824E7B164006A9D2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7404DBB24E7B164006A9D2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7404DBD24E7B164006A9D2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7BF00AC24E7C2C200CCCCD0 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
-		B7BF00AD24E7C2C200CCCCD0 /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
-		B7BF00AE24E7C2C200CCCCD0 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
-		B7BF00AF24E7C2C200CCCCD0 /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
-		B7BF00B024E7C2C200CCCCD0 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
-		B7BF00B124E7C2C200CCCCD0 /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
-		B7BF00B224E7C2C200CCCCD0 /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
-		B7BF00B324E7C2C200CCCCD0 /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
-		B7BF00B424E7C2C200CCCCD0 /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
-		B7BF00B524E7C2C200CCCCD0 /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
+		B75B370024E93EE200B7473A /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
+		B75B370124E93EE200B7473A /* nssl0046.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0046.jpg; sourceTree = "<group>"; };
+		B75B370224E93EE200B7473A /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		B75B370324E93EE200B7473A /* nssl0045.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0045.jpg; sourceTree = "<group>"; };
+		B75B370424E93EE200B7473A /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
+		B75B370524E93EE200B7473A /* nssl0041.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0041.jpg; sourceTree = "<group>"; };
+		B75B370624E93EE200B7473A /* nssl0042.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0042.jpg; sourceTree = "<group>"; };
+		B75B370724E93EE200B7473A /* nssl0043.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0043.jpg; sourceTree = "<group>"; };
+		B75B370824E93EE200B7473A /* nssl0033.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0033.jpg; sourceTree = "<group>"; };
+		B75B370924E93EE200B7473A /* nssl0034.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0034.jpg; sourceTree = "<group>"; };
 		B7BF00C024E824AF00CCCCD0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,27 +86,26 @@
 				B7404DB824E7B164006A9D2F /* Assets.xcassets */,
 				B7404DBA24E7B164006A9D2F /* LaunchScreen.storyboard */,
 				B7404DBD24E7B164006A9D2F /* Info.plist */,
-				B7BF00AB24E7C2C200CCCCD0 /* Content */,
+				B75B36FF24E93EE200B7473A /* Content */,
 			);
 			path = project1;
 			sourceTree = "<group>";
 		};
-		B7BF00AB24E7C2C200CCCCD0 /* Content */ = {
+		B75B36FF24E93EE200B7473A /* Content */ = {
 			isa = PBXGroup;
 			children = (
-				B7BF00AC24E7C2C200CCCCD0 /* nssl0049.jpg */,
-				B7BF00AD24E7C2C200CCCCD0 /* nssl0046.jpg */,
-				B7BF00AE24E7C2C200CCCCD0 /* nssl0091.jpg */,
-				B7BF00AF24E7C2C200CCCCD0 /* nssl0045.jpg */,
-				B7BF00B024E7C2C200CCCCD0 /* nssl0051.jpg */,
-				B7BF00B124E7C2C200CCCCD0 /* nssl0041.jpg */,
-				B7BF00B224E7C2C200CCCCD0 /* nssl0042.jpg */,
-				B7BF00B324E7C2C200CCCCD0 /* nssl0043.jpg */,
-				B7BF00B424E7C2C200CCCCD0 /* nssl0033.jpg */,
-				B7BF00B524E7C2C200CCCCD0 /* nssl0034.jpg */,
+				B75B370024E93EE200B7473A /* nssl0049.jpg */,
+				B75B370124E93EE200B7473A /* nssl0046.jpg */,
+				B75B370224E93EE200B7473A /* nssl0091.jpg */,
+				B75B370324E93EE200B7473A /* nssl0045.jpg */,
+				B75B370424E93EE200B7473A /* nssl0051.jpg */,
+				B75B370524E93EE200B7473A /* nssl0041.jpg */,
+				B75B370624E93EE200B7473A /* nssl0042.jpg */,
+				B75B370724E93EE200B7473A /* nssl0043.jpg */,
+				B75B370824E93EE200B7473A /* nssl0033.jpg */,
+				B75B370924E93EE200B7473A /* nssl0034.jpg */,
 			);
-			name = Content;
-			path = "../../../Downloads/HackingWithSwift-main/Classic/project1-files/Content";
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,18 +166,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7BF00B724E7C2C200CCCCD0 /* nssl0046.jpg in Resources */,
-				B7BF00BE24E7C2C200CCCCD0 /* nssl0033.jpg in Resources */,
-				B7BF00BA24E7C2C200CCCCD0 /* nssl0051.jpg in Resources */,
-				B7BF00B824E7C2C200CCCCD0 /* nssl0091.jpg in Resources */,
-				B7BF00BD24E7C2C200CCCCD0 /* nssl0043.jpg in Resources */,
-				B7BF00BF24E7C2C200CCCCD0 /* nssl0034.jpg in Resources */,
-				B7BF00B624E7C2C200CCCCD0 /* nssl0049.jpg in Resources */,
-				B7BF00BB24E7C2C200CCCCD0 /* nssl0041.jpg in Resources */,
-				B7BF00BC24E7C2C200CCCCD0 /* nssl0042.jpg in Resources */,
+				B75B370B24E93EE200B7473A /* nssl0046.jpg in Resources */,
+				B75B371224E93EE200B7473A /* nssl0033.jpg in Resources */,
+				B75B370E24E93EE200B7473A /* nssl0051.jpg in Resources */,
+				B75B370C24E93EE200B7473A /* nssl0091.jpg in Resources */,
+				B75B371124E93EE200B7473A /* nssl0043.jpg in Resources */,
+				B75B371324E93EE200B7473A /* nssl0034.jpg in Resources */,
+				B75B370A24E93EE200B7473A /* nssl0049.jpg in Resources */,
+				B75B370F24E93EE200B7473A /* nssl0041.jpg in Resources */,
+				B75B371024E93EE200B7473A /* nssl0042.jpg in Resources */,
 				B7404DBC24E7B164006A9D2F /* LaunchScreen.storyboard in Resources */,
 				B7404DB924E7B164006A9D2F /* Assets.xcassets in Resources */,
-				B7BF00B924E7C2C200CCCCD0 /* nssl0045.jpg in Resources */,
+				B75B370D24E93EE200B7473A /* nssl0045.jpg in Resources */,
 				B7404DB724E7B162006A9D2F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
