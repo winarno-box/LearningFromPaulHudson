@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     var countries = [String]()
     var score = 0
     var correctAnswer = 0
+    var maxToPlay = 0
     
     
     override func viewDidLoad() {
@@ -40,6 +41,7 @@ class ViewController: UIViewController {
         
         // call asquestion function
         askQuestion()
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "\(score)", style: .plain, target: self, action: nil)
    
     }
     
@@ -68,18 +70,39 @@ class ViewController: UIViewController {
             title = "Correct"
             score += 1
         } else {
-            title = "Wrong"
+            title = "Wrong! That’s the flag of \(countries[sender.tag])"
             score -= 1
         }
         
+        
+        maxToPlay += 1
+        if maxToPlay < 4 {
         let ac = UIAlertController(title: title, message: "Your Score is \(score)", preferredStyle: .alert)
         //ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: askQuestion))
         
         // use closure
-        ac.addAction(UIAlertAction(title: title, style: .default, handler: { (UIAlertAction) in
+        ac.addAction(UIAlertAction(title: "Continue", style: .default, handler: { (UIAlertAction) in
             self.askQuestion()
         }))
+        
         present(ac, animated: true)
+            
+        }else{
+            let ac = UIAlertController(title: "Finish", message: "Your Final Score is \(score)", preferredStyle: .alert)
+            
+            ac.addAction(UIAlertAction(title: "Restart", style: .default, handler: { (UIAlertAction) in
+                
+                self.title = ""
+                self.maxToPlay = 0
+                self.askQuestion()
+                
+            }))
+            
+            present(ac, animated: true)
+            self.score = 0
+        }
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "\(score)", style: .plain, target: self, action: nil)
         
     }
     
