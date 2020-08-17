@@ -30,9 +30,7 @@ class ViewController: UITableViewController {
                 
                 // this is a picture to load!
                 pictures.append(item)
-                
-                
-                
+                pictures.sort()
             }
         }
         
@@ -63,6 +61,8 @@ class ViewController: UITableViewController {
         
         if let vc = storyboard?.instantiateViewController(identifier: "Detail") as? DetailViewController{
             vc.selectedImage = pictures[indexPath.row]
+            vc.numberOfSlectedImage = indexPath.row + 1
+            vc.CountofImage = pictures.count
             
             navigationController?.pushViewController(vc, animated: true)
         }
